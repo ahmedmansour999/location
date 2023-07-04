@@ -124,7 +124,7 @@ body {
 }
 
 .cover {
-  background-image: url(./travel.jpg);
+  background-image: url(/img/travel.jpg);
   width: 500px;
   display: flex;
   justify-content: center;
