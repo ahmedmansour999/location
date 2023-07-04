@@ -64,8 +64,8 @@ body {
   @media (max-width: 786px) {
     max-height: none;
     border-radius: 0;
-    height: auto; /* Updated property */
-    flex-grow: 1; /* Added property */
+    height: calc(100vh - 40px);
+    box-sizing: border-box;
   }
 }
 
