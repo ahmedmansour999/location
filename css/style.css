@@ -68,6 +68,15 @@ body {
     box-sizing: border-box;
   }
 }
+@media (max-width : 786px){
+  .nav__text{
+    transform: rotate(-90deg);
+  }
+  .nav__cart{
+    margin-bottom: 10px;
+    transform: rotate(-90deg);
+  }
+}
 
 .nav {
   width: 100px;
