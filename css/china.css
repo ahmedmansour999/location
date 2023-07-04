@@ -90,3 +90,23 @@ font-size:1.3rem;}
 footer a i:hover{
   transform:translateY(-10px);
 }
+
+@media (max-width : 768px) {
+    #top {
+        height: 50%;
+    }
+    #top #text{
+        font-size: 3rem;
+    }
+    #sec{
+        padding: 40px;
+    }
+    #sec h2{
+        font-size: 2rem;
+    }
+    #sec p{
+        line-height: 1.6rem;
+        text-align: justify ;
+    }
+
+}
