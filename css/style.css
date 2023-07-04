@@ -59,7 +59,12 @@ body {
   @media (max-width: 980px) {
     max-height: none;
     border-radius: 0;
-    height: -webkit-fill-available;
+    height: 100%;
+  }
+  @media (max-width: 786px) {
+    max-height: none;
+    border-radius: 0;
+    height: 100vh;
   }
 }
 
