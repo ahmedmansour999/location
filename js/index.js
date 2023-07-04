@@ -63,22 +63,22 @@ const Nav = document.getElementById('nav')
 
 Egypt.addEventListener('click' , 
 function () {
-    window.open('/pyramids.html', '_blank');
+    window.open('./pyramids.html', '_blank');
 }
 )
 India.addEventListener('click' , 
 function () {
-    window.open('/india.html', '_blank');
+    window.open('./india.html', '_blank');
 }
 )
 Mountain.addEventListener('click' , 
 function () {
-    window.open('/mountain.html', '_blank');
+    window.open('./mountain.html', '_blank');
 }
 )
 China.addEventListener('click' , 
 function () {
-    window.open('/china.html', '_blank');
+    window.open('./china.html', '_blank');
 }
 )
 Cover.addEventListener('click' , 
